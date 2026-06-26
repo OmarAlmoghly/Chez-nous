@@ -1,71 +1,120 @@
+````markdown
 # 🛒 Chez Nous
 
-**Prototype E-commerce — Épicerie en ligne avec recherche à facettes, panier et processus d'achat**
+> **Prototype d'épicerie en ligne** développé avec **React** et **Vite**, offrant une expérience d'achat moderne avec recherche à facettes, panier interactif et processus de commande complet.
 
-Interface e-commerce complète avec catalogue produits, panier d'achat et flux de commande. L'enjeu : une expérience d'achat intuitive, rassurante et agréable qui donne envie de revenir.
-
-![E-commerce](https://img.shields.io/badge/E--commerce-orange) ![React](https://img.shields.io/badge/React-blue) ![Responsive](https://img.shields.io/badge/Responsive-green)
-
----
-
-## 🔗 Lien du site
-
-> À venir après déploiement
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
+![Vite](https://img.shields.io/badge/Vite-7-646CFF?logo=vite)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?logo=javascript)
+![Responsive](https://img.shields.io/badge/Responsive-Mobile%20%26%20Desktop-success)
 
 ---
 
-## 📖 À propos du projet
+## 🌐 Démo
 
-Ce projet e-commerce explore la conception d'une boutique en ligne complète. Du catalogue produits au tunnel d'achat, chaque étape du parcours utilisateur est pensée pour maximiser la confiance et minimiser les frictions.
-
-Le design s'appuie sur les principes de Nielsen Norman Group concernant l'e-commerce : clarté des prix, images de qualité, processus de commande simplifié et signaux de confiance visibles.
+🔗 **Site web :** https://omaralmoghly.github.io/Chez-nous/
 
 ---
 
-## ✨ Fonctionnalités
+# 📖 À propos
 
-- 🔍 Recherche à facettes (catégorie, marque, format, préférences, prix)
+**Chez Nous** est un prototype d'application e-commerce simulant une épicerie en ligne.
+
+Le projet met l'accent sur une expérience utilisateur simple, rapide et rassurante, depuis la recherche de produits jusqu'à la confirmation de commande.
+
+Le design s'inspire des bonnes pratiques du **Nielsen Norman Group** en matière d'e-commerce :
+
+- Navigation claire
+- Recherche rapide
+- Prix visibles
+- Processus de commande simplifié
+- Interface responsive
+- Signaux de confiance
+
+---
+
+# ✨ Fonctionnalités
+
+- 🔍 Recherche à facettes
+  - Catégories
+  - Marques
+  - Formats
+  - Préférences alimentaires
+  - Gamme de prix
+
 - 🛒 Panier d'achat dynamique
-- 💳 Processus de commande complet (checkout)
+
+- ➕ Gestion des quantités
+
+- 💳 Processus de commande (Checkout)
+
 - 🔐 Connexion utilisateur
+
 - 📋 Sondage de satisfaction
-- 📱 Interface responsive (mobile & bureau)
+
+- 📱 Interface responsive (mobile, tablette et bureau)
+
+- ⚡ Mise à jour instantanée de l'interface avec React
 
 ---
 
-## 🛠 Technologies
+# 🛠 Technologies utilisées
 
 | Technologie | Usage |
 |-------------|-------|
 | React | Interface utilisateur |
 | Vite | Bundler |
-| CSS | Styles personnalisés |
 | JavaScript | Logique applicative |
+| CSS | Styles personnalisés |
+| HTML5 | Structure |
 
 ---
 
-## 🚀 Installation
+# 🚀 Installation
+
+## Cloner le projet
 
 ```bash
-# Cloner le projet
 git clone https://github.com/OmarAlmoghly/Chez-nous.git
+````
 
-# Entrer dans le dossier
+## Accéder au dossier
+
+```bash
 cd Chez-nous
+```
 
-# Installer les dépendances
+## Installer les dépendances
+
+```bash
 npm install
+```
 
-# Lancer en développement
+## Lancer le serveur de développement
+
+```bash
 npm run dev
 ```
 
+## Générer la version de production
+
+```bash
+npm run build
+```
+
+## Prévisualiser la version de production
+
+```bash
+npm run preview
+```
+
 ---
 
-## 📁 Structure du projet
+# 📂 Structure du projet
 
 ```
 src/
+│
 ├── components/
 │   ├── Header.jsx
 │   ├── FacetPanel.jsx
@@ -74,17 +123,55 @@ src/
 │   ├── SurveyPage.jsx
 │   ├── LoginModal.jsx
 │   └── Toast.jsx
+│
 ├── data/
 │   ├── produits.js
 │   └── facettes.js
+│
 ├── utils/
 │   └── filtrage.js
+│
 ├── App.jsx
 └── App.css
 ```
 
 ---
 
-## 👨‍💻 Auteur
+# 🎯 Objectifs pédagogiques
 
-**Omar Almoghly** — Université d'Ottawa · SEG3525 · 2026
+Ce projet a été réalisé dans le cadre du cours **SEG3525 – User Interface Design** à l'Université d'Ottawa.
+
+Les principaux objectifs étaient de :
+
+* Concevoir une interface e-commerce centrée utilisateur.
+* Appliquer les principes d'utilisabilité.
+* Développer une application React modulaire.
+* Créer une interface responsive.
+* Simuler un parcours d'achat complet.
+
+---
+
+# 📸 Aperçu
+
+Vous pouvez consulter la démonstration en ligne :
+
+👉 https://omaralmoghly.github.io/Chez-nous/
+
+---
+
+# 👨‍💻 Auteur
+
+**Omar Almoghly**
+
+Université d'Ottawa
+SEG3525 – User Interface Design
+2026
+
+---
+
+## 📄 Licence
+
+Projet académique réalisé dans le cadre du cours **SEG3525** à l'Université d'Ottawa.
+
+```
+```
