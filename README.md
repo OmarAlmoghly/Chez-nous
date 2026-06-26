@@ -1,7 +1,8 @@
 ````markdown
-# 🛒 Chez Nous
+🛒 Chez Nous
+Prototype d'épicerie en ligne moderne
 
-> **Prototype d'épicerie en ligne** développé avec **React** et **Vite**, offrant une expérience d'achat moderne avec recherche à facettes, panier interactif et processus de commande complet.
+Une application React + Vite simulant une expérience d'achat complète avec recherche à facettes, panier interactif et processus de commande intuitif.
 
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
 ![Vite](https://img.shields.io/badge/Vite-7-646CFF?logo=vite)
